@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="all">
+      <h1>Login</h1>
+      <form id="login-form">
+        <label id="label1">Username:</label><br />
+        <input
+          type="text"
+          id="username"
+          class="username"
+          required
+        /><br /><br />
+        <label id="label2">Email:</label><br />
+        <input type="email" id="email" class="email" required /><br /><br />
+
+        <label id="label3">Password:</label><br />
+        <input
+          type="password"
+          id="password"
+          class="password"
+          required
+        /><br /><br />
+
+        <button type="submit" class="butt">Login</button>
+      </form>
+    </div>
+    <div id="message"></div>
+
+    <script src="login.js"></script>
+  </body>
+</html>

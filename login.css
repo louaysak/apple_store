@@ -1,0 +1,38 @@
+#label1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#label2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#label3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.all{
+    margin-left: 45%;
+    margin-top: 20%;
+}
+.username{
+    height: 20px;
+    border-radius: 8px;
+}
+.email{
+    height: 20px;
+    border-radius: 8px;   
+}
+.password{
+    height: 20px;
+    border-radius: 8px;
+}
+
+.butt{
+    width: 120px;
+    margin-left: 25px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/2.jpg);
+    
+    background-position: center;
+}

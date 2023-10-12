@@ -1,31 +1,80 @@
-#label1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+body{
+    padding:0;
+    margin:0;
+    font-family:sans-serif ;
 }
-#label2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.container{
+   min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
-#label3{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding:20px 0
 }
+.logo{
+ width:40px
+}
+ul li {
+   display: inline-block ;
+   list-style-type: none;
+}
+ul li a{
+    color: #fff ;
+    text-decoration: none;
+    margin: 0 10px;
+ }
+ .content{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   width: 80%;
+   margin: auto;
+   margin-top: 5%;
+   
+ }
+ .content .text{
+    width: 50%;
+    color: #fff;
+ }
+ .content .text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+ }
+ .content .text p{
+   font-size: 18px;
+   margin: 20px 0;
+   
+    }
+ .content .text a{
+    text-decoration: none;
+    background: rgb(194, 155, 155);
+    color: black;
+    padding: 8px 15px;
+    border-radius: 15px;
+   
+ } 
 
-.all{
-    margin-left: 45%;
-    margin-top: 20%;
-}
-.username{
-    height: 20px;
-    border-radius: 8px;
-}
-.email{
-    height: 20px;
-    border-radius: 8px;   
-}
-.password{
-    height: 20px;
-    border-radius: 8px;
-}
-
-.butt{
-    width: 120px;
-    margin-left: 25px;
+ .content .image img{
+    width: 200px;
+ }
+ .lo{
+   border-right: 1px solid white;
+ }
+ .icons{
+   position: absolute;                             
+   bottom: 0;
+   left: 50%;                                    
+ }
+ .icons img{
+   width: 40px;
+   cursor: pointer;
+ }
+ .icons img:hover{
+   transform: scale(1.6);                       
 }
