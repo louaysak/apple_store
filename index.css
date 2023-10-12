@@ -72,9 +72,16 @@ ul li a{
    left: 50%;                                    
  }
  .icons img{
-   width: 40px;
+   width: 60px;
    cursor: pointer;
  }
  .icons img:hover{
    transform: scale(1.6);                       
+}
+#user-status{
+ 
+ color: brown;
+}
+.text {
+   margin-left: 120px;
 }
